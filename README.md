@@ -38,7 +38,7 @@ pip install pandas dash dash-core-components dash-html-components
 3. Open the terminal or command prompt, navigate to the directory where the app code is located, and run the app:
 
 ```bash
-python app.py
+python data_cleaning.py
 ```
 
 4. Open a web browser and go to the following address to access the Dash app:
