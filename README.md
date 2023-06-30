@@ -17,8 +17,8 @@ The ProteoCore Data Cleaning Dash App is a web application that allows users to 
 ## Dependencies
 
 - Python 3.6 or higher
-- pandas
-- dash
+- pandas 2.0.3
+- dash 2.11.0
 - dash-core-components
 - dash-html-components
 - Jupyter is NOT required to run this app
