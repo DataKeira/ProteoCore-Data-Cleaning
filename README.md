@@ -21,6 +21,8 @@ The ProteoCore Data Cleaning Dash App is a web application that allows users to 
 - dash 2.11.0
 - dash-core-components
 - dash-html-components
+- dash-bootstrap-components
+- gunicorn
 - Jupyter is NOT required to run this app
 
 ## How to Run
@@ -32,7 +34,7 @@ To run the ProteoCore Data Cleaning Dash App, follow these steps:
 2. Install the required Python packages using pip:
 
 ```bash
-pip install pandas dash dash-core-components dash-html-components
+pip install pandas dash dash-core-components dash-html-components dash-bootstrap-components gunicorn
 ```
 
 3. Open the terminal or command prompt, navigate to the directory where the app code is located, and run the app:
