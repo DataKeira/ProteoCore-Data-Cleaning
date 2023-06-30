@@ -40,7 +40,7 @@ pip install pandas dash dash-core-components dash-html-components dash-bootstrap
 3. Open the terminal or command prompt, navigate to the directory where the app code is located, and run the app:
 
 ```bash
-gunicorn -w 4 data_cleaning:app
+gunicorn data_cleaning:server
 ```
 
 4. Open a web browser and go to the following address to access the Dash app:
