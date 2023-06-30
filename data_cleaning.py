@@ -37,7 +37,7 @@ def clean_data(n_clicks, target_species, csv_file, output_file):
         filtered_data_row = df[df['Organism'] == target_species]
 
         #any empty values in gene will be filled with the entry name of that row for identification
-        df['Gene'] = df['Gene'].fillna(df['Entry Name'])
+        filtered_data_row['Gene'] = filtered_data_row['Gene'].fillna(filtered_data_row['Entry Name'])
 
         #setting a value to Gene and Inensity columns except MaxLFQ or Unique intensity
         columns_to_keep = ['Gene'] + [col for col in filtered_data_row.columns if 'Intensity' in col and 'MaxLFQ' not in col and 'Unique' not in col]
