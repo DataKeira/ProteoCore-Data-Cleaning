@@ -61,7 +61,7 @@ http://127.0.0.1:8050/
 
 - If you wish to add labels to your sample columns you must do so manually onto the output csv file.
 
-- Does not remove keratin conamination if your target species is Human.
+- Does not remove keratin contamination if your target species is Human.
 
 ## Feedback and Contributions
 
