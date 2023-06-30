@@ -67,7 +67,3 @@ http://127.0.0.1:8050/
 
 Your feedback and contributions to this project are highly appreciated! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request on GitHub.
 
----
-Include any additional information or notes that you think might be helpful for users to understand and use your app effectively. You can also include details about how to contribute to the project or the app's license information if you choose to share it with an open-source license.
-
-Remember to update the README file if you make significant changes to the app or add new features. A well-written README will help users understand your app and encourage them to use and contribute to it. Good luck with your Dash app!
