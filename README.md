@@ -21,6 +21,7 @@ The ProteoCore Data Cleaning Dash App is a web application that allows users to 
 - dash
 - dash-core-components
 - dash-html-components
+- Jupyter is NOT required to run this app
 
 ## How to Run
 
