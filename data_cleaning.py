@@ -1,5 +1,3 @@
-
-```{python}
 import pandas as pd
 import dash
 import dash_core_components as dcc
@@ -69,4 +67,4 @@ def clean_data(n_clicks, target_species, csv_file, output_file):
 if __name__ == '__main__':
     app.run_server(debug=True)
 
-```
+
