@@ -4,7 +4,7 @@ The ProteoCore Data Cleaning Dash App is a web application that allows users to 
 
 ## How to Use
 
-1. **Enter Target Species**: Specify the target species for data filtering. Only rows with the specified species in the "Organism" column will be included in the analysis. For example (Homo sapien OX=9606), include both the species and OX number.
+1. **Enter Target Species**: Specify the target species for data filtering. Only rows with the specified species in the "Organism" column will be included in the analysis. For example (Homo sapiens OX=9606), include both the species and OX number.
 
 2. **Input CSV File**: Enter the file path or URL to the CSV file containing your proteomics data. The app will read the data from this file.
 
