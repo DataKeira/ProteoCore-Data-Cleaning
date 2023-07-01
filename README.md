@@ -1,6 +1,6 @@
 # ProteoCore Data Cleaning Dash App
 
-The ProteoCore Data Cleaning Dash App is a web application that allows users to clean and process proteomics data to prepare it for programs such as MetaboAnalyst. It provides an interactive interface to filter data based on the target species, remove unwanted columns, and intensity values for gene entries.
+The ProteoCore Data Cleaning Dash App is a web application that allows users to clean and process proteomics data to prepare it for programs such as MetaboAnalyst. It provides an interactive interface to filter data based on the target species, remove unwanted columns, and intensity values for gene entries. Is only available to use through a local server.
 
 ## How to Use
 
@@ -22,8 +22,6 @@ The ProteoCore Data Cleaning Dash App is a web application that allows users to 
 - dash-core-components
 - dash-html-components
 - dash-bootstrap-components
-- gunicorn
-- Jupyter is NOT required to run this app
 
 ## How to Run
 
@@ -37,13 +35,13 @@ To run the ProteoCore Data Cleaning Dash App, follow these steps:
 pip install pandas dash dash-core-components dash-html-components dash-bootstrap-components gunicorn
 ```
 
-3. Open the terminal or command prompt, navigate to the directory where the app code is located, and run the app:
+3. Open the terminal or command prompt, navigate to the directory where the app code is located, and run the app , example:
 
 ```bash
-gunicorn data_cleaning:server
+python app.py
 ```
 
-4. Open a web browser and go to the following address to access the Dash app:
+4. Open a web browser and go to the following address to access the Dash app, do not have multiple windows of this address open or else the app will not work:
 
 ```
 http://127.0.0.1:8050/
